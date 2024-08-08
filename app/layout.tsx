@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='ko' className={pretendard.className}>
-      <body>{children}</body>
+      <body className='bg-background'>{children}</body>
     </html>
   );
 }
